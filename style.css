@@ -1,0 +1,1249 @@
+/* Design général */
+body {
+    font-family: 'Inter', sans-serif;
+    background: #000000;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #f1d23c;
+}
+
+/* Section recherche */
+.search {
+    margin: 40px;
+}
+
+input {
+    padding: 12px;
+    width: 300px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #f1d23c;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #f1d23c;
+}
+
+/* Cards résultats */
+./* Cards générales (titres / UI) */
+.card {
+  background: #111;
+  border-radius: 16px;
+}
+
+/* Cartes de la page Privacy */
+.policyCard {
+  padding: 30px;
+  color: #fff;
+  max-width: 800px;
+  margin: 30px auto;
+  line-height: 1.6;
+}
+
+body.light .policyCard {
+  background: #f5f5f5;
+  color: #111;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card p {
+    margin: 5px 0;
+}
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    height: 60px; /* 400x300 px */
+    width: auto;
+}
+.logo{
+    height:70px;
+}
+.seriesimg{
+width:100%;
+border-radius:10px;
+margin-bottom:10px;
+}
+.card{
+cursor:pointer;
+transition:0.2s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fill,minmax(260px,260px));
+gap:30px;
+padding:30px;
+justify-content:center;
+}
+
+
+.card{
+background:white;
+color:black;
+border-radius:12px;
+padding:15px;
+box-shadow:0 6px 18px rgba(0,0,0,0.25);
+cursor:pointer;
+transition:0.25s;
+text-align:center;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+.seriesimg{
+width:100%;
+height:540px;
+object-fit:cover;
+border-radius:12px;
+margin-bottom:12px;
+}
+.container{
+max-width:1200px;
+margin:0 auto;
+}
+#results{
+display:flex;
+justify-content:center;
+margin-top:150px;
+}
+/* Results container */
+#results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+
+.card h3 {
+    padding: 15px;
+    color: white;
+}
+.details{
+max-width:1100px;
+margin:0 auto;
+padding:30px;
+color:white;
+}
+
+.backlink{
+color:white;
+text-decoration:none;
+font-size:18px;
+margin-right:15px;
+}
+
+.details-hero{
+display:flex;
+gap:30px;
+align-items:flex-start;
+flex-wrap:wrap;
+}
+
+.details-poster{
+width:320px;
+border-radius:18px;
+overflow:hidden;
+box-shadow:0 8px 25px rgba(0,0,0,0.6);
+}
+
+.details-poster img{
+width:100%;
+height:480px;
+object-fit:cover;
+display:block;
+}
+
+.details-info h1{
+margin:0 0 10px 0;
+font-size:34px;
+}
+
+.pills{
+display:flex;
+gap:12px;
+flex-wrap:wrap;
+margin-top:18px;
+}
+
+.pill{
+background:#1f2937;
+border:1px solid rgba(255,255,255,0.12);
+color:white;
+padding:10px 14px;
+border-radius:999px;
+cursor:pointer;
+transition:0.2s;
+}
+
+.pill:hover{
+transform:scale(1.05);
+}
+
+.list{
+margin-top:22px;
+display:flex;
+flex-direction:column;
+gap:12px;
+}
+
+.row{
+background:#111;
+border-radius:14px;
+padding:14px;
+box-shadow:0 6px 18px rgba(0,0,0,0.4);
+}
+.badge{
+padding:6px 12px;
+border-radius:999px;
+font-size:12px;
+font-weight:bold;
+margin-right:12px;
+}
+
+.badge.nudity{
+background:#dc2626;
+color:white;
+}
+
+.badge.kiss{
+  background:#f59e0b;
+  color:#111;
+}
+
+
+.badge{
+  padding:6px 12px;
+  border-radius:999px;
+  font-size:12px;
+  font-weight:bold;
+  margin-right:12px;
+  display:inline-block;
+}
+
+.badge.nudity{
+  background:#dc2626;
+  color:white;
+}
+
+.badge.kiss{
+  background:#f59e0b;
+  color:white;
+}
+
+.badge.other{
+  background:#700294;
+  color:white;
+}
+
+
+.badge{
+  padding:6px 12px;
+  border-radius:999px;
+  font-size:12px;
+  font-weight:bold;
+  margin-right:12px;
+  display:inline-block;
+}
+
+.badge.nudity{ background:#dc2626; color:white; }
+.badge.kiss{ background:#f59e0b; color:white; }
+.badge.other{ background:#700294; color:white; }
+.pill.active{
+  background:#2563eb;
+  border-color:rgba(255,255,255,0.25);
+}
+
+.pill.active:hover{
+  transform:scale(1.05);
+}
+.tagline{
+  max-width: 800px;
+  margin: 10px auto 30px auto;
+  padding: 0 16px;
+  color: rgba(255,255,255,0.8);
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+.topbar{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+}
+
+.nav{
+  display:flex;
+  gap:10px;
+}
+
+.navbtn{
+  background: transparent;
+  color: white;
+  border: 1px solid rgba(255,255,255,0.18);
+  padding: 8px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.navbtn.active{
+  background:#2563eb;
+  border-color: rgba(255,255,255,0.25);
+}
+.navlink{
+  color:white;
+  text-decoration:none;
+  border:1px solid rgba(255,255,255,0.18);
+  padding:8px 12px;
+  border-radius:999px;
+}
+.navlink:hover{ transform:scale(1.05); display:inline-block; }
+/* Light theme */
+body.light{
+  background:#f6f7fb;
+  color:#0f172a;
+}
+
+body.light .topbar{
+  background:#ffffff;
+  box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+body.light .tagline{
+  color:rgba(15,23,42,0.75);
+}
+
+body.light .navbtn,
+body.light .navlink{
+  color:#0f172a;
+  border-color:rgba(15,23,42,0.18);
+}
+
+body.light .navbtn.active{
+  color:white;
+}
+
+body.light .row{
+  background:#ffffff;
+  color:#0f172a;
+}
+
+body.light .pill{
+  background:#eef2ff;
+  color:#0f172a;
+  border-color:rgba(15,23,42,0.15);
+}
+
+body.light .card{
+  background:#ffffff;
+  color:#0f172a;
+}
+
+body.light .card h3{
+  color:#0f172a;
+}
+.posterWrap{
+  position:relative;
+}
+
+.typeBadge{
+  position:absolute;
+  top:12px;
+  left:12px;
+  padding:6px 10px;
+  border-radius:999px;
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:0.5px;
+  color:white;
+  background:#334155;
+  box-shadow:0 6px 18px rgba(0,0,0,0.35);
+}
+
+.typeBadge.series{
+  background:#2563eb;
+}
+
+.typeBadge.movie{
+  background:#f59e0b;
+  color:#111;
+}
+.taglineBox{
+  max-width: 900px;
+  margin: 14px auto 26px auto;
+  padding: 18px 18px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.10);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  text-align: center;
+}
+
+.taglineBox h2{
+  margin: 0 0 8px 0;
+  font-size: 20px;
+  color: white;
+}
+
+body.light .taglineBox{
+  background: rgba(15,23,42,0.04);
+  border-color: rgba(15,23,42,0.10);
+}
+body.light .taglineBox h2{
+  color:#0f172a;
+}
+.timeRange{
+  font-weight:700;
+  letter-spacing:0.3px;
+}
+.homeSections{
+  max-width: 1200px;
+  margin: 24px auto 60px auto;
+  padding: 0 18px;
+}
+
+.sectionHeader{
+  margin: 18px 0 12px 0;
+}
+
+.sectionHeader h2{
+  margin: 0;
+  font-size: 18px;
+  color: rgba(255,255,255,0.92);
+}
+
+.sectionHeader p{
+  margin: 6px 0 0 0;
+  font-size: 14px;
+  color: rgba(255,255,255,0.65);
+}
+
+body.light .sectionHeader h2{ color:#0f172a; }
+body.light .sectionHeader p{ color:rgba(15,23,42,0.7); }
+
+.sectionTop{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+}
+
+.viewAllBtn{
+  background: transparent;
+  color: white;
+  border: 1px solid rgba(255,255,255,0.18);
+  padding: 8px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.viewAllBtn:hover{
+  transform: scale(1.05);
+  border-color: rgba(255,255,255,0.35);
+}
+
+body.light .viewAllBtn{
+  color:#0f172a;
+  border-color: rgba(15,23,42,0.18);
+}
+.card{
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover{
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.45);
+}
+/* Red note on details page */
+.redNote{
+  margin-top:12px;
+  padding:12px 14px;
+  border-radius:14px;
+  background: rgba(220,38,38,0.12);
+  border: 1px solid rgba(220,38,38,0.45);
+  color: #ff4d4d;
+  font-weight: 600;
+  text-align: left;
+}
+
+body.light .redNote{
+  background: rgba(220,38,38,0.08);
+  border-color: rgba(220,38,38,0.35);
+  color: #b91c1c;
+}
+/* Footer */
+.siteFooter{
+  margin-top: 40px;
+  padding: 26px 18px;
+  border-top: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+}
+
+.footerInner{
+  max-width: 1200px;
+  margin: 0 auto;
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:18px;
+  flex-wrap:wrap;
+}
+
+.footerBrand{
+  font-weight: 800;
+  letter-spacing: .4px;
+  margin-bottom: 6px;
+}
+
+.footerDisclaimer{
+  color: rgba(255,255,255,0.70);
+  font-size: 13px;
+  max-width: 520px;
+  line-height: 1.4;
+}
+
+.footerLinks{
+  display:flex;
+  gap:14px;
+  flex-wrap:wrap;
+}
+
+.footerLinks a{
+  color: rgba(255,255,255,0.85);
+  text-decoration: none;
+  border: 1px solid rgba(255,255,255,0.14);
+  padding: 7px 10px;
+  border-radius: 999px;
+  transition: .2s;
+  font-size: 13px;
+}
+
+.footerLinks a:hover{
+  transform: translateY(-2px);
+  border-color: rgba(255,255,255,0.30);
+}
+
+.footerRight{
+  opacity: .8;
+  font-size: 13px;
+  border: 1px solid rgba(255,255,255,0.14);
+  padding: 7px 10px;
+  border-radius: 999px;
+}
+
+body.light .siteFooter{
+  background: rgba(15,23,42,0.03);
+  border-top-color: rgba(15,23,42,0.10);
+}
+
+body.light .footerDisclaimer{
+  color: rgba(15,23,42,0.70);
+}
+
+body.light .footerLinks a,
+body.light .footerRight{
+  color: rgba(15,23,42,0.85);
+  border-color: rgba(15,23,42,0.14);
+}
+/* Page transitions */
+body{
+  opacity: 1;
+  transition: opacity .25s ease;
+}
+
+body.pageExit{
+  opacity: 0;
+}
+
+/* Cards fade-in */
+.card{
+  opacity: 0;
+  transform: translateY(10px);
+  animation: cwFadeIn .35s ease forwards;
+}
+
+@keyframes cwFadeIn{
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Netflix-like glow */
+.card:hover{
+  box-shadow: 0 18px 55px rgba(0,0,0,0.55);
+  outline: 1px solid rgba(255,255,255,0.12);
+}
+
+body.light .card:hover{
+  box-shadow: 0 18px 55px rgba(0,0,0,0.18);
+  outline: 1px solid rgba(15,23,42,0.10);
+}
+/* Fix: Details page text colors in Light mode */
+body.light .backlink{
+  color:#0f172a;
+}
+
+body.light .details-info h1{
+  color:#0f172a;
+}
+/* Theme icon button (pro look) */
+.iconBtn{
+  width:44px;
+  height:44px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:0;
+  border-radius:999px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.18);
+  cursor:pointer;
+  transition: 0.2s;
+}
+
+.iconBtn:hover{
+  transform: scale(1.05);
+  border-color: rgba(255,255,255,0.35);
+}
+
+.themeIcon{
+  width:20px;
+  height:20px;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+/* Light mode icon color */
+body.light .iconBtn{
+  border-color: rgba(15,23,42,0.18);
+}
+
+body.light .iconBtn:hover{
+  border-color: rgba(15,23,42,0.35);
+}
+
+body.light .themeIcon{
+  color:#0f172a;
+}
+/* Subtle professional glow effect */
+
+.iconBtn{
+  transition: 
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+/* Premium soft glow (blur style) */
+
+.iconBtn:hover{
+  transform: scale(1.06);
+  box-shadow:
+    0 0 8px rgba(255,255,255,0.12),
+    0 0 18px rgba(255,255,255,0.08);
+}
+
+/* Light mode glow */
+body.light .iconBtn:hover{
+  box-shadow:
+    0 0 8px rgba(15,23,42,0.12),
+    0 0 18px rgba(15,23,42,0.08);
+}
+/* Breadcrumb */
+.breadcrumb{
+  margin: 6px 0 14px 0;
+  font-size: 14px;
+  opacity: 0.9;
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  align-items:center;
+}
+
+.crumbLink{
+  color: rgba(255,255,255,0.85);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255,255,255,0.25);
+  padding-bottom: 2px;
+}
+
+.crumbLink:hover{
+  border-bottom-color: rgba(255,255,255,0.6);
+}
+
+.sep{
+  opacity: 0.55;
+}
+
+.crumbCurrent{
+  font-weight: 700;
+  opacity: 0.95;
+}
+
+/* Light mode breadcrumb */
+body.light .crumbLink{
+  color: rgba(15,23,42,0.85);
+  border-bottom-color: rgba(15,23,42,0.25);
+}
+body.light .crumbLink:hover{
+  border-bottom-color: rgba(15,23,42,0.55);
+}
+/* Timestamp entry animation (fade + slide up) */
+.fadeUp{
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeUpIn .35s ease forwards;
+}
+
+@keyframes fadeUpIn{
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.titleMeta{
+  margin-top: 10px;
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+}
+
+.metaChip{
+  display:inline-flex;
+  align-items:center;
+  padding:6px 12px;
+  border-radius:999px;
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:0.4px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.14);
+  color: rgba(255,255,255,0.92);
+}
+
+body.light .metaChip{
+  background: rgba(15,23,42,0.06);
+  border-color: rgba(15,23,42,0.14);
+  color: rgba(15,23,42,0.85);
+}
+.titleHeader{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  flex-wrap:wrap;
+}
+
+.yearTag{
+  font-size:14px;
+  font-weight:700;
+  padding:6px 12px;
+  border-radius:999px;
+  background: rgba(255,255,255,0.06);
+  border:1px solid rgba(255,255,255,0.18);
+  opacity:0.85;
+}
+
+body.light .yearTag{
+  background: rgba(15,23,42,0.06);
+  border-color: rgba(15,23,42,0.14);
+  color: rgba(15,23,42,0.85);
+}
+.pageContent {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto 80px auto;
+}
+/* ===== FIX FINAL: cartes HOME (films/séries) uniquement ===== */
+.grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 342px));
+  gap:30px;
+  padding:30px;
+  justify-content:center;
+}
+
+
+/* carte uniquement dans la grille */
+.grid .card{
+  background:#111 !important;
+  color:#fff !important;
+  border-radius:16px;
+  padding:15px;
+  max-width:none !important;
+  margin:0 !important;
+  line-height:normal !important;
+  box-shadow:0 6px 18px rgba(0,0,0,0.25);
+  cursor:pointer;
+  overflow:hidden;
+}
+
+/* image dans la carte */
+.grid .card .seriesimg,
+.grid .card img{
+  width:100%;
+  height:540px;
+  object-fit:cover;
+  border-radius:12px;
+  margin-bottom:12px;
+  display:block;
+}
+
+.grid .card h3{
+  padding:0;
+  margin:0;
+  color:#fff !important;
+}
+
+/* light mode */
+body.light .grid .card{
+  background:#fff !important;
+  color:#0f172a !important;
+}
+
+body.light .grid .card h3{
+  color:#0f172a !important;
+}
+/* Fix: About / Contact / Privacy title color in Light theme */
+body.light .details{
+  color:#0f172a;
+}
+
+body.light .details h1{
+  color:#0f172a;
+}
+body.light .details p{
+  color: rgba(15,23,42,0.85);
+}
+/* ================================
+   Privacy Policy - DARK THEME FIX
+   ================================ */
+
+/* 1) Background of cards = black */
+body.dark .details .card{
+  background: #000000;
+}
+
+/* 2) Text inside cards = white */
+body.dark .details .card p,
+body.dark .details .card li{
+  color: #ffffff;
+}
+
+/* 3) Small titles inside cards = BLACK */
+body.dark .details .card h2,
+body.dark .details .card h3{
+  color: #000000;
+  background: #ffffff;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: 700;
+}
+/* ==========================================
+   PRIVACY PAGE - FORCE DARK THEME STYLES
+   (works with many theme systems)
+   ========================================== */
+
+.privacy-page.dark,
+.privacy-page.dark-mode,
+.privacy-page[data-theme="dark"],
+body.dark .privacy-page,
+body.dark-mode .privacy-page,
+body[data-theme="dark"] .privacy-page {
+  /* just a hook, no need to style here */
+}
+
+/* Cards / boxes background = black (try multiple common classes) */
+.privacy-page.dark .card,
+.privacy-page.dark .box,
+.privacy-page.dark .panel,
+.privacy-page.dark .section,
+.privacy-page.dark .details .card,
+.privacy-page.dark .details .box,
+.privacy-page.dark .details .panel,
+
+.privacy-page.dark-mode .card,
+.privacy-page.dark-mode .box,
+.privacy-page.dark-mode .panel,
+.privacy-page.dark-mode .details .card,
+
+.privacy-page[data-theme="dark"] .card,
+.privacy-page[data-theme="dark"] .box,
+.privacy-page[data-theme="dark"] .panel,
+.privacy-page[data-theme="dark"] .details .card {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+/* Text inside the boxes = white */
+.privacy-page.dark .card *,
+.privacy-page.dark-mode .card *,
+.privacy-page[data-theme="dark"] .card *,
+.privacy-page.dark .box *,
+.privacy-page.dark-mode .box *,
+.privacy-page[data-theme="dark"] .box *,
+.privacy-page.dark .panel *,
+.privacy-page.dark-mode .panel *,
+.privacy-page[data-theme="dark"] .panel * {
+  color: #fff !important;
+}
+
+/* Small titles inside each box (like "Information We Collect") = black */
+.privacy-page.dark .card h2,
+.privacy-page.dark .card h3,
+.privacy-page.dark-mode .card h2,
+.privacy-page.dark-mode .card h3,
+.privacy-page[data-theme="dark"] .card h2,
+.privacy-page[data-theme="dark"] .card h3,
+.privacy-page.dark .box h2,
+.privacy-page.dark .box h3,
+.privacy-page.dark-mode .box h2,
+.privacy-page.dark-mode .box h3,
+.privacy-page[data-theme="dark"] .box h2,
+.privacy-page[data-theme="dark"] .box h3,
+.privacy-page.dark .panel h2,
+.privacy-page.dark .panel h3,
+.privacy-page.dark-mode .panel h2,
+.privacy-page.dark-mode .panel h3,
+.privacy-page[data-theme="dark"] .panel h2,
+.privacy-page[data-theme="dark"] .panel h3 {
+  color: #000 !important;
+  background: #fff !important;
+  display: inline-block !important;
+  padding: 6px 12px !important;
+  border-radius: 6px !important;
+  font-weight: 800 !important;
+}
+/* ===== Privacy page - Dark theme fix ===== */
+
+/* Cards background black + text white in DARK */
+html.dark .privacy-page .policyCard,
+body.dark .privacy-page .policyCard,
+html[data-theme="dark"] .privacy-page .policyCard,
+body[data-theme="dark"] .privacy-page .policyCard {
+  background: #000 !important;
+  color: #fff !important;
+  border: 1px solid rgba(255,255,255,0.12) !important;
+}
+
+/* All text inside cards = white */
+html.dark .privacy-page .policyCard * ,
+body.dark .privacy-page .policyCard * ,
+html[data-theme="dark"] .privacy-page .policyCard * ,
+body[data-theme="dark"] .privacy-page .policyCard * {
+  color: #fff !important;
+}
+
+/* Small titles (h3) = black text on white pill (readable + matches your request) */
+html.dark .privacy-page .policyCard h3,
+body.dark .privacy-page .policyCard h3,
+html[data-theme="dark"] .privacy-page .policyCard h3,
+body[data-theme="dark"] .privacy-page .policyCard h3 {
+  color: #000 !important;
+  background: #fff !important;
+  display: inline-block !important;
+  padding: 6px 12px !important;
+  border-radius: 8px !important;
+  font-weight: 800 !important;
+}
+
+/* Links inside cards (mail) */
+html.dark .privacy-page .policyCard a,
+body.dark .privacy-page .policyCard a,
+html[data-theme="dark"] .privacy-page .policyCard a,
+body[data-theme="dark"] .privacy-page .policyCard a {
+  color: #f1d23c !important;
+}
+/* =========================================
+   FIX: Privacy Policy cards in DARK theme
+   ========================================= */
+
+/* Dark = quand le body n'a PAS la classe .light */
+body.privacy-page:not(.light) .policyCard{
+  background:#111 !important;     /* cases noires */
+  color:#fff !important;          /* texte blanc */
+  border:1px solid rgba(255,255,255,0.12) !important;
+}
+
+/* Texte dans les cases (paragraphes + liens) en blanc */
+body.privacy-page:not(.light) .policyCard p,
+body.privacy-page:not(.light) .policyCard a{
+  color:#fff !important;
+}
+
+/* Petits titres dans chaque case (h3) : noir (lisible) */
+body.privacy-page:not(.light) .policyCard h3{
+  color:#000 !important;          /* texte noir */
+  background:#fff !important;     /* fond blanc pour que noir soit visible */
+  display:inline-block !important;
+  padding:6px 12px !important;
+  border-radius:8px !important;
+  margin-top:0 !important;
+}
+/* =========================================
+   Privacy Policy – FIX titles (Dark mode)
+   Remove white boxes, keep white text
+   ========================================= */
+
+/* Titres des sections (h3) : texte blanc simple */
+body.privacy-page:not(.light) .policyCard h3{
+  background: none !important;   /* enlève la case blanche */
+  padding: 0 !important;         /* enlève l’espace interne */
+  border-radius: 0 !important;
+  color: #ffffff !important;     /* texte blanc */
+  font-weight: 700;
+}
+/* =========================================
+   Email color (Contact + Privacy)
+   ========================================= */
+
+/* Email link color = yellow */
+body.privacy-page a[href^="mailto:"],
+body.contact-page a[href^="mailto:"]{
+  color: #f1d23c !important;
+  font-weight: 600;
+}
+/* Email color (Contact + Privacy) */
+a[href^="mailto:"]{
+  color: #f1d23c !important;
+  font-weight: 600;
+}
+/* Force email yellow (Contact + Privacy) */
+.cwEmail,
+.cwEmail:visited,
+.cwEmail:hover,
+.cwEmail:active{
+  color: #f1d23c !important;
+  text-decoration: underline;
+}
+/* Privacy: force email yellow even if other rules override */
+body.privacy-page a.cwEmail,
+body.privacy-page a.cwEmail:visited,
+body.privacy-page a.cwEmail:hover,
+body.privacy-page a.cwEmail:active,
+body.privacy-page .policyCard a.cwEmail{
+  color: #f1d23c !important;
+  text-decoration: underline;
+}
+/* Footer right block (stacked) */
+.footerRight{
+  display:flex;
+  flex-direction:column;   /* IMPORTANT : en colonne */
+  align-items:flex-end;    /* aligné à droite */
+  gap:4px;
+}
+
+/* Version */
+.footerRight .version{
+  font-size:12px;
+  opacity:0.7;
+}
+
+/* Copyright text */
+.footerRight .copyright{
+  font-size:12px;          /* petit */
+  font-weight:700;         /* GRAS */
+  color:rgba(255,255,255,0.6);
+  white-space:nowrap;
+}
+/* Footer right: stack version + copyright */
+.footerRight{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+/* Copyright text (no pill, small + bold) */
+.footerCopyright{
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.2;
+  opacity: 0.85;
+}
+/* ===== Footer right: v1.0 + copyright UNDER it ===== */
+.footerRight{
+  display: flex;
+  flex-direction: column;   /* empile verticalement */
+  align-items: flex-end;    /* collé à droite */
+  gap: 6px;
+}
+
+/* v1.0 reste comme avant */
+.versionBadge{
+  display: inline-block;
+}
+
+/* Copyright: texte seul, petit, gras */
+.footerCopyright{
+  font-size: 12px;
+  font-weight: 700;         /* GRAS */
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0;
+  color: rgba(255,255,255,0.75);
+}
+/* ==================================================
+   FINAL FIX — Footer right (force layout)
+   v1.0 on top, copyright UNDER it
+   ================================================== */
+
+footer .footerRight{
+  display: flex !important;
+  flex-direction: column !important;   /* l’un sous l’autre */
+  align-items: flex-end !important;    /* aligné à droite */
+  gap: 6px !important;
+}
+
+/* v1.0 reste inchangé */
+footer .versionBadge{
+  display: inline-block;
+}
+
+/* Copyright text: simple, small, BOLD, no box */
+footer .footerCopyright{
+  font-size: 12px !important;
+  font-weight: 700 !important;          /* GRAS */
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+  color: rgba(255,255,255,0.75) !important;
+}
+.footerRight{
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:flex-end !important;
+  gap:6px !important;
+}
+
+.footerCopyright{
+  background:none !important;
+  border:none !important;
+  box-shadow:none !important;
+  padding:0 !important;
+  margin:0 !important;
+  font-size:12px !important;
+  font-weight:700 !important;
+}
+/* ================================
+   CLEANWATCH FOOTER FINAL (OVERRIDE)
+   ================================ */
+
+/* 1) FooterRight devient un conteneur VERTICAL (PAS une capsule) */
+.siteFooter .footerRight{
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:flex-end !important;
+  gap:6px !important;
+
+  border:none !important;
+  padding:0 !important;
+  border-radius:0 !important;
+  background:transparent !important;
+  box-shadow:none !important;
+}
+
+/* 2) La capsule appartient uniquement à v1.0 */
+.siteFooter .versionBadge{
+  display:inline-block !important;
+  opacity:.8 !important;
+  font-size:13px !important;
+  border:1px solid rgba(255,255,255,0.14) !important;
+  padding:7px 10px !important;
+  border-radius:999px !important;
+  background:transparent !important;
+}
+
+/* 3) Copyright = texte simple, petit, GRAS, sans case */
+.siteFooter .footerCopyright{
+  font-size:12px !important;
+  font-weight:700 !important;
+  opacity:0.75 !important;
+
+  border:none !important;
+  padding:0 !important;
+  margin:0 !important;
+  background:none !important;
+  box-shadow:none !important;
+  border-radius:0 !important;
+}
+
+/* 4) Light mode: juste couleurs */
+body.light .siteFooter .versionBadge{
+  color: rgba(15,23,42,0.85) !important;
+  border-color: rgba(15,23,42,0.14) !important;
+}
+
+body.light .siteFooter .footerCopyright{
+  color: rgba(15,23,42,0.70) !important;
+}
+/* ===== Footer copyright: bold + correct color for each theme ===== */
+.siteFooter .footerCopyright{
+  font-weight: 800 !important;   /* GRAS */
+  color: #ffffff !important;      /* BLANC (dark mode) */
+  opacity: 1 !important;          /* pas gris */
+}
+
+/* Light mode: texte sombre (sinon blanc sur fond clair) */
+body.light .siteFooter .footerCopyright{
+  color: #0f172a !important;
+}
+/* =====================================
+   FIX: Search results cards in Dark mode
+   ===================================== */
+
+body:not(.light) .card{
+  background:#111 !important;
+  color:#ffffff !important;
+}
+
+body:not(.light) .card h3{
+  color:#ffffff !important;
+}

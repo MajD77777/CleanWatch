@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CleanWatch</title>
+<link rel="icon" type="image/png" href="favicon.png">
+
+    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<script src="script.js"></script>
+<script src="theme.js"></script>
+</body>
+
+
+    
+<header class="topbar">
+  <img src="logo.png" class="logo">
+
+  <div class="nav">
+    <button class="navbtn active" onclick="setCategory('all')">All</button>
+    <button class="navbtn" onclick="setCategory('series')">Series</button>
+    <button class="navbtn" onclick="setCategory('movie')">Movies</button>
+  </div>
+<button class="navbtn" id="themeBtn" onclick="toggleTheme()">Light</button>
+
+
+</header>
+
+
+<h<img src="logo.png" class="logo">
+</header>
+<div class="taglineBox">
+  <h2>What is CleanWatch ?</h2>
+  <p class="tagline">
+    CleanWatch helps you find exact timestamps for sensitive scenes ( nudity, kisses and more ) in movies & series, so you can skip them before watching.
+  </p>
+</div>
+
+
+<section class="search">
+    <input type="text" id="searchInput" placeholder="Search movies or series" onkeydown="handleEnter(event)" oninput="searchLive()">
+
+
+    <button onclick="search()">Search</button>
+
+<section id="homeSections" class="homeSections">
+  <div class="sectionHeader">
+  <div class="sectionTop">
+    <h2>Recently Added</h2>
+    <button class="viewAllBtn" onclick="viewAllTitles()">View all</button>
+  </div>
+  <p>New titles added from the Admin panel.</p>
+</div>
+
+  <div id="recentGrid" class="grid"></div>
+
+  <div class="sectionHeader" style="margin-top:26px;">
+  <div class="sectionTop">
+    <h2>Popular Examples</h2>
+    <button class="viewAllBtn" onclick="viewAllTitles()">View all</button>
+  </div>
+  <p>Try these titles to see how CleanWatch works.</p>
+</div>
+
+  <div id="popularGrid" class="grid"></div>
+</section>
+
+<div id="results"></div>
+
+
+</section>
+<button id="backBtn" onclick="goBack()" style="display:none;">Back</button>
+
+<section id="results" class="grid"></section>
+
+<footer class="siteFooter">
+  <div class="footerInner">
+    <div class="footerLeft">
+      <div class="footerBrand">CleanWatch</div>
+      <div class="footerDisclaimer">
+        CleanWatch is not affiliated with any streaming service.
+      </div>
+    </div>
+
+    <div class="footerLinks">
+     <a class="footerLink" href="about.html">About</a>
+<a class="footerLink" href="privacy.html">Privacy</a>
+<a class="footerLink" href="contact.html">Contact</a>
+
+    </div>
+
+    <div class="footerRight" style="display:flex; flex-direction:column; align-items:flex-end; gap:6px;">
+
+
+  <span class="versionBadge">v1.0</span>
+
+
+
+  <div class="footerCopyright" style="font-size:12px; font-weight:700; background:none; border:none; padding:0; margin:0; box-shadow:none;">
+
+    ©CleanWatch. All rights reserved | © 2026
+  </div>
+</div>
+
+</footer>
+
+<script src="script.js"></script>

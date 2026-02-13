@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CleanWatch Admin</title>
+<link rel="icon" type="image/png" href="favicon.png">
+
+  <link rel="stylesheet" href="style.css" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<header class="topbar">
+  <a href="index.html" class="backlink">← Back</a>
+  <img src="logo.png" class="logo">
+  <div class="nav">
+    <button class="navbtn" id="themeBtn" onclick="toggleTheme()">Light</button>
+  </div>
+</header>
+
+
+<main class="details">
+  <h1>Admin Panel</h1>
+  <p class="tagline" style="text-align:left;">
+    Add or update titles. Data is saved locally in your browser (localStorage).
+  </p>
+
+  <div class="row" style="text-align:left;">
+    <h3>Title Info</h3>
+
+    <label>Title</label><br>
+    <input id="titleInput" placeholder="e.g. Breaking Bad" style="width:100%;padding:12px;border-radius:10px;border:none;margin:8px 0;"><br>
+
+    <label>Type</label><br>
+    <select id="typeInput" style="width:100%;padding:12px;border-radius:10px;border:none;margin:8px 0;">
+      <option value="series">Series</option>
+      <option value="movie">Movie</option>
+    </select><br>
+
+    <label>Image path</label><br>
+    <input id="imageInput" placeholder="e.g. images/breakingbad.jpg" style="width:100%;padding:12px;border-radius:10px;border:none;margin:8px 0;"><br>
+<label>Genres (multiple)</label><br>
+<select id="genreInput" multiple
+  style="width:100%;padding:12px;border-radius:10px;border:none;margin:8px 0;height:180px;">
+  <option>Drama</option>
+  <option>Sci-Fi</option>
+  <option>Mystery</option>
+  <option>Thriller</option>
+  <option>Fantasy</option>
+  <option>Comedy</option>
+  <option>Action</option>
+  <option>Adventure</option>
+  <option>Crime</option>
+  <option>Mini-Series</option>
+  <option>Suspense</option>
+  <option>Western</option>
+  <option>Horror</option>
+  <option>Family</option>
+  <option>Animation</option>
+  <option>Anime</option>
+</select>
+<div style="font-size:12px;opacity:.75;margin-top:6px;">
+  Tip: hold <b>Ctrl</b> (Windows) to select multiple.
+</div><br>
+
+
+<label>Release year</label><br>
+<input id="yearInput" type="number" placeholder="e.g. 2013" min="1900" max="2100"
+  style="width:100%;padding:12px;border-radius:10px;border:none;margin:8px 0;"><br>
+
+
+    <hr style="opacity:.2;margin:18px 0;">
+
+    <h3>Episode Data</h3>
+
+    <label>Season (number)</label><br>
+    <input id="seasonInput" type="number" placeholder="1" style="width:100%;padding:12px;border-radius:10px;border:none;margin:8px 0;"><br>
+
+    <label>Episode (number)</label><br>
+    <input id="episodeInput" type="number" placeholder="1" style="width:100%;padding:12px;border-radius:10px;border:none;margin:8px 0;"><br>
+
+    <label>Timestamps (one per line)</label><br>
+    <textarea id="timestampsInput" rows="6" placeholder="00:10:00 - 00:11:00 Nudity&#10;00:22:00 - 00:22:20 Kiss"
+      style="width:100%;padding:12px;border-radius:10px;border:none;margin:8px 0;"></textarea><br>
+
+    <button onclick="saveTitle()" style="margin-top:10px;">Save</button>
+    <button onclick="resetAll()" style="margin-top:10px;background:#dc2626;">Reset All Data</button>
+<hr style="opacity:.2;margin:18px 0;">
+
+<h3>Backup</h3>
+<p style="opacity:.85;margin-top:6px;">
+  Export your data to keep it safe, then import it on any PC.
+</p>
+
+<button onclick="exportData()" style="margin-top:10px;background:#16a34a;">Export Data</button>
+
+<input id="importFile" type="file" accept="application/json" style="display:none;" onchange="importData(event)">
+<button onclick="document.getElementById('importFile').click()" style="margin-top:10px;background:#0ea5e9;">
+  Import Data
+</button>
+
+
+    <p id="msg" style="margin-top:12px;"></p>
+  </div>
+
+  <div class="row" style="text-align:left;margin-top:20px;">
+    <h3>Current Saved Titles</h3>
+    <div id="list"></div>
+  </div>
+</main>
+
+<script src="admin-guard.js"></script>
+<script src="admin.js"></script>
+<script src="theme.js"></script>
+
+</body>
+</html>
