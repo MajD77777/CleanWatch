@@ -2,7 +2,7 @@
   {
     "title": "Breaking Bad",
     "type": "series",
-    "image": "breakingbad.jpg",
+    "image": "images/breakingbad.jpg",
     "seasons": [
       {
         "season": 1,
@@ -24,6 +24,12 @@
             "timestamps": [
               "00:15:17 - 00:15:19 Kiss"
             ]
+          },
+          {
+            "episode": 4,
+            "timestamps": [
+              "00:30:43 - 00:31:02 Nudity"
+            ]
           }
         ]
       }
@@ -32,7 +38,7 @@
   {
     "title": "Daredevil: Born Again",
     "type": "series",
-    "image": "daredevilbornagain.jpg",
+    "image": "images/daredevilbornagain.jpg",
     "genres": [
       "Drama",
       "Thriller",
@@ -51,6 +57,10 @@
               "00:53:15 - 00:53:25 Kiss",
               "00:53:28 - 00:53:32 Kiss"
             ]
+          },
+          {
+            "episode": 2,
+            "timestamps": []
           }
         ]
       }
@@ -59,7 +69,7 @@
   {
     "title": "Game Of Thrones",
     "type": "series",
-    "image": "gameofthrones.jpg",
+    "image": "images/gameofthrones.jpg",
     "genres": [
       "Drama",
       "Sci-Fi",
@@ -87,7 +97,7 @@
   {
     "title": "Karate Kid Legends",
     "type": "movie",
-    "image": "karatekidlegends.jpg",
+    "image": "images/karatekidlegends.jpg",
     "genres": [
       "Drama",
       "Action",
@@ -101,4 +111,3 @@
     ]
   }
 ]
-
