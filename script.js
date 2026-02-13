@@ -2,7 +2,7 @@ const defaultData = [
   {
     title: "Breaking Bad",
     type: "series",
-    image: "breakingbad.jpg",
+    image: "images/breakingbad.jpg",
     seasons: [
       {
         season: 1,
@@ -20,7 +20,7 @@ const defaultData = [
  {
     title: "Game of Thrones",
     type: "series",
-    image: "gameofthrones.jpg",
+    image: "images/gameofthrones.jpg",
     seasons: [
       {
         season: 1,
@@ -229,4 +229,5 @@ function viewAllTitles() {
 document.addEventListener("DOMContentLoaded", () => {
   showHomeSections();
 });
+
 
