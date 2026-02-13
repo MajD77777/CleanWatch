@@ -1,3 +1,19 @@
+function cleanImagePath(p){
+  p = (p || "").trim();
+
+  // enlève ./ ou / au début
+  p = p.replace(/^(\.\/)+/, "");
+  p = p.replace(/^\/+/, "");
+
+  // enlève images/ si présent
+  p = p.replace(/^images\//, "");
+
+  // si quelqu’un colle un chemin complet, on garde juste le fichier
+  if(p.includes("/")) p = p.split("/").pop();
+
+  return p;
+}
+
 function loadData(){
   const saved = localStorage.getItem("cleanwatchData");
   return saved ? JSON.parse(saved) : [];
@@ -20,7 +36,8 @@ function showList(){
     <div style="margin:12px 0;opacity:.95;padding:10px;border:1px solid rgba(255,255,255,.12);border-radius:12px;">
       <b>${d.title}</b> (${d.type}) <br>
       <small>${d.image}</small><br>
-<small>${d.genre ? d.genre : ""}${d.year ? " • " + d.year : ""}</small>
+<small>${(d.genres && d.genres.length) ? d.genres.join(", ") : ""}${d.year ? " • " + d.year : ""}</small>
+
 
       <div style="margin-top:10px;display:flex;gap:10px;flex-wrap:wrap;">
         <button onclick="loadTitle(${i})" style="background:#2563eb;">Edit</button>
@@ -34,7 +51,8 @@ function showList(){
 function saveTitle(){
   const title = document.getElementById("titleInput").value.trim();
   const type = document.getElementById("typeInput").value;
-  const image = document.getElementById("imageInput").value.trim();
+  const image = cleanImagePath(document.getElementById("imageInput").value);
+
 const genreSelect = document.getElementById("genreInput");
 const genres = Array.from(genreSelect.selectedOptions).map(o => o.value);
 
