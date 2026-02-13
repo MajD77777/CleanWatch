@@ -1,1 +1,39 @@
-copy(localStorage.getItem("cleanwatchData") || "[]");
+[
+  {
+    "title": "Breaking Bad",
+    "type": "series",
+    "image": "breakingbad.jpg",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "timestamps": [
+              { "start": "00:12:32", "end": "00:13:18", "type": "nudity" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Game of Thrones",
+    "type": "series",
+    "image": "gameofthrones.jpg",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "timestamps": [
+              { "start": "00:12:00", "end": "00:13:00", "type": "nudity" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
+
