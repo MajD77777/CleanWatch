@@ -2,7 +2,7 @@
   {
     "title": "Breaking Bad",
     "type": "series",
-    "image": "images/breakingbad.jpg",
+    "image": "breakingbad.jpg",
     "seasons": [
       {
         "season": 1,
@@ -32,7 +32,7 @@
   {
     "title": "Daredevil: Born Again",
     "type": "series",
-    "image": "images/daredevilbornagain.jpg",
+    "image": "daredevilbornagain.jpg",
     "genres": [
       "Drama",
       "Thriller",
@@ -59,7 +59,7 @@
   {
     "title": "Game Of Thrones",
     "type": "series",
-    "image": "images/gameofthrones.jpg",
+    "image": "gameofthrones.jpg",
     "genres": [
       "Drama",
       "Sci-Fi",
@@ -87,7 +87,7 @@
   {
     "title": "Karate Kid Legends",
     "type": "movie",
-    "image": "images/karatekidlegends.jpg",
+    "image": "karatekidlegends.jpg",
     "genres": [
       "Drama",
       "Action",
@@ -101,3 +101,4 @@
     ]
   }
 ]
+
