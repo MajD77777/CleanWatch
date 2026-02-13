@@ -1,2 +1,103 @@
-[{"title":"Breaking Bad","type":"series","image":"breakingbad.jpg","seasons":[{"season":1,"episodes":[{"episode":1,"timestamps":["00:25:13 - 00:25:58 Nudity","00:33:15 - 00:33:19 Kiss","00:42:18 - 00:43:27 Other"]},{"episode":2,"timestamps":[]},{"episode":3,"timestamps":["00:15:17 - 00:15:19 Kiss"]}]}]},{"title":"Daredevil: Born Again","type":"series","image":"daredevilbornagain.jpg","genres":["Drama","Thriller","Fantasy","Action","Crime"],"year":2025,"seasons":[{"season":1,"episodes":[{"episode":1,"timestamps":[]}]}]},{"title":"Game Of Thrones","type":"series","image":"gameofthrones.jpg","genres":["Drama","Sci-Fi","Fantasy","Action","Adventure"],"year":2011,"seasons":[{"season":1,"episodes":[{"episode":1,"timestamps":["00:35:32 - 00:36:21 Nudity","00:39:22 - 00:40:05 Kiss","01:00:52 - 01:01:05 Other"]}]}]},{"title":"Karate Kid Legends","type":"movie","image":"karatekidlegends.jpg","genres":["Drama","Action","Adventure","Family"],"year":2025,"seasons":[],"timestamps":["00:32:44 - 00:33:12 Kiss"]}]
-
+[
+  {
+    "title": "Breaking Bad",
+    "type": "series",
+    "image": "images/breakingbad.jpg",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "timestamps": [
+              "00:25:13 - 00:25:58 Nudity",
+              "00:33:15 - 00:33:19 Kiss",
+              "00:42:18 - 00:43:27 Other"
+            ]
+          },
+          {
+            "episode": 2,
+            "timestamps": []
+          },
+          {
+            "episode": 3,
+            "timestamps": [
+              "00:15:17 - 00:15:19 Kiss"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Daredevil: Born Again",
+    "type": "series",
+    "image": "images/daredevilbornagain.jpg",
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Fantasy",
+      "Action",
+      "Crime"
+    ],
+    "year": 2025,
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "timestamps": [
+              "00:53:15 - 00:53:25 Kiss",
+              "00:53:28 - 00:53:32 Kiss"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Game Of Thrones",
+    "type": "series",
+    "image": "images/gameofthrones.jpg",
+    "genres": [
+      "Drama",
+      "Sci-Fi",
+      "Fantasy",
+      "Action",
+      "Adventure"
+    ],
+    "year": 2011,
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "timestamps": [
+              "00:35:32 - 00:36:21 Nudity",
+              "00:39:22 - 00:40:05 Kiss",
+              "01:00:52 - 01:01:05 Other"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Karate Kid Legends",
+    "type": "movie",
+    "image": "images/karatekidlegends.jpg",
+    "genres": [
+      "Drama",
+      "Action",
+      "Adventure",
+      "Family"
+    ],
+    "year": 2025,
+    "seasons": [],
+    "timestamps": [
+      "00:32:44 - 00:33:12 Kiss"
+    ]
+  }
+]
