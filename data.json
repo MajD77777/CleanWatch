@@ -1,0 +1,1 @@
+copy(localStorage.getItem("cleanwatchData") || "[]");
