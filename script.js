@@ -146,10 +146,16 @@ function renderCardInto(container, item) {
     <h3>${item.title}</h3>
   `;
 
-  card.onclick = () => {
-    localStorage.setItem("selectedMovie", JSON.stringify(item));
+ card.onclick = () => {
+  document.getElementById("loaderOverlay").classList.add("active");
+
+  localStorage.setItem("selectedMovie", JSON.stringify(item));
+
+  setTimeout(() => {
     window.location.href = "details.html";
-  };
+  }, 300);
+};
+
 
   container.appendChild(card);
 }
