@@ -41,6 +41,21 @@
           {
             "episode": 6,
             "timestamps": []
+          },
+          {
+            "episode": 7,
+            "timestamps": [
+              "00:05:05 - 00:05:37 Nudity",
+              "00:08:12 - 00:08:15 Kiss"
+            ]
+          },
+          {
+            "episode": 8,
+            "timestamps": []
+          },
+          {
+            "episode": 9,
+            "timestamps": []
           }
         ]
       }
