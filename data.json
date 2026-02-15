@@ -60,5 +60,31 @@
         ]
       }
     ]
+  },
+  {
+    "title": "Treason",
+    "type": "series",
+    "image": "treason.jpg",
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Action",
+      "Mini-Series"
+    ],
+    "year": 2022,
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "timestamps": [
+              "00:17:01 - 00:17:05 Kiss",
+              "00:21:41 - 00:22:08 Other"
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
