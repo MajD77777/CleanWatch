@@ -104,5 +104,18 @@
         ]
       }
     ]
+  },
+  {
+    "title": "Exam",
+    "type": "movie",
+    "image": "exam.jpg",
+    "genres": [
+      "Mystery",
+      "Thriller",
+      "Crime"
+    ],
+    "year": 2009,
+    "seasons": [],
+    "timestamps": []
   }
 ]
