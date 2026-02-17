@@ -117,5 +117,18 @@
     "year": 2009,
     "seasons": [],
     "timestamps": []
+  },
+  {
+    "title": "The Lockdown",
+    "type": "movie",
+    "image": "thelockdown.jpg",
+    "genres": [
+      "Drama",
+      "Action",
+      "Crime"
+    ],
+    "year": 2024,
+    "seasons": [],
+    "timestamps": []
   }
 ]
