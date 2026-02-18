@@ -171,24 +171,19 @@ function showHomeSections() {
 
   data = loadCleanWatchData();
 
-  // Recently Added (localStorage)
+    // Recently Added (data.json = defaultData)
   if (recentGrid) {
     recentGrid.innerHTML = "";
 
-    const saved = localStorage.getItem("cleanwatchData");
-    let recent = [];
-    if (saved) {
-      try {
-        const arr = JSON.parse(saved);
-        if (Array.isArray(arr)) recent = arr.slice(-6).reverse();
-      } catch {}
-    }
+    // on prend les 6 derniers de data.json
+    let recent = (defaultData || []).slice(-6).reverse();
 
+    // filtre par catégorie (All / Series / Movies)
     recent = recent.filter(matchesCategory);
 
     if (recent.length === 0) {
-      const label = currentCategory === "movie" ? "movies" : (currentCategory === "series" ? "series" : "titles");
-      recentGrid.innerHTML = `<div class="row">No recent ${label} yet. Add some in Admin.</div>`;
+      const label = currentCategory === "movie" ? "movies" : (currentCategory === "series" ? "tv shows" : "titles");
+      recentGrid.innerHTML = `<div class="row">No recent ${label} yet.</div>`;
     } else {
       recent.forEach(item => renderCardInto(recentGrid, item));
     }
@@ -226,3 +221,4 @@ function viewAllTitles() {
 document.addEventListener("DOMContentLoaded", () => {
   initDefaultData();
 });
+
