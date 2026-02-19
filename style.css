@@ -825,7 +825,7 @@ body.light .yearTag{
 /* image dans la carte */
 .grid .card .seriesimg,
 .grid .card img{
-  width:70%;
+  width:120%;
   height:540px;
   object-fit:cover;
   border-radius:12px;
@@ -1278,5 +1278,6 @@ body:not(.light) .card h3{
 @keyframes spin{
   to{ transform: rotate(360deg); }
 }
+
 
 
