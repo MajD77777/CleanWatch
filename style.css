@@ -1285,7 +1285,7 @@ body:not(.light) .card h3{
 
 /* 1) Make cards wider in the grid */
 .homeSections .grid{
-  grid-template-columns: repeat(auto-fill, minmax(320px, 420px)) !important;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 410px)) !important;
 }
 
 /* 2) Ensure poster area fills the card nicely */
@@ -1301,6 +1301,7 @@ body:not(.light) .card h3{
   object-fit: cover !important;
   display: block !important;
 }
+
 
 
 
