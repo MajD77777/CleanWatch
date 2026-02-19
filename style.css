@@ -1302,11 +1302,12 @@ body:not(.light) .card h3{
   display: block !important;
 }
 /* 3 cards per row on large screens */
-@media (min-width: 1200px){
+@media (min-width: 1100px){
   .homeSections .grid{
     grid-template-columns: repeat(3, minmax(320px, 400px)) !important;
   }
 }
+
 
 
 
