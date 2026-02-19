@@ -1278,6 +1278,29 @@ body:not(.light) .card h3{
 @keyframes spin{
   to{ transform: rotate(360deg); }
 }
+/* ==============================
+   CLEANWATCH — POSTER SIZE FIX
+   (safe override at end)
+   ============================== */
+
+/* 1) Make cards wider in the grid */
+.homeSections .grid{
+  grid-template-columns: repeat(auto-fill, minmax(320px, 360px)) !important;
+}
+
+/* 2) Ensure poster area fills the card nicely */
+.homeSections .posterWrap{
+  width: 100% !important;
+}
+
+/* 3) Force poster image display size (same height, wider card handles width) */
+.homeSections .posterWrap img,
+.homeSections .seriesimg{
+  width: 100% !important;
+  height: 540px !important;
+  object-fit: cover !important;
+  display: block !important;
+}
 
 
 
