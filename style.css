@@ -1301,6 +1301,36 @@ body:not(.light) .card h3{
   object-fit: cover !important;
   display: block !important;
 }
+/* Instagram icon in footer */
+.footerInstagram{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  margin-top:8px;
+  width:28px;
+  height:28px;
+  color:rgba(255,255,255,0.8);
+  transition:0.2s ease;
+}
+
+.footerInstagram:hover{
+  color:#f1d23c;
+  transform:scale(1.15);
+}
+
+.instaIcon{
+  width:20px;
+  height:20px;
+}
+
+/* Light mode */
+body.light .footerInstagram{
+  color:rgba(15,23,42,0.8);
+}
+
+body.light .footerInstagram:hover{
+  color:#2563eb;
+}
 
 
 
