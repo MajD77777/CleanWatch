@@ -153,5 +153,71 @@
       "01:10:17 - 01:10:19 Other",
       "01:32:22 - 01:32:25 Kiss"
     ]
+  },
+  {
+    "title": "Arcane",
+    "type": "series",
+    "image": "arcane.jpg",
+    "genres": [
+      "Drama",
+      "Sci-Fi",
+      "Fantasy",
+      "Action",
+      "Adventure",
+      "Animation"
+    ],
+    "year": 2021,
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "timestamps": []
+          },
+          {
+            "episode": 2,
+            "timestamps": []
+          },
+          {
+            "episode": 3,
+            "timestamps": []
+          },
+          {
+            "episode": 4,
+            "timestamps": []
+          },
+          {
+            "episode": 5,
+            "timestamps": [
+              "00:26:30 - 00:26:39 Kiss",
+              "00:27:30 - 00:27:39 Kiss",
+              "00:28:04 - 00:28:51 Nudity"
+            ]
+          },
+          {
+            "episode": 6,
+            "timestamps": []
+          },
+          {
+            "episode": 7,
+            "timestamps": [
+              "00:19:45 - 00:20:16 Other"
+            ]
+          },
+          {
+            "episode": 8,
+            "timestamps": [
+              "00:20:26 - 00:20:39 Nudity",
+              "00:34:58 - 00:36:12 Nudity"
+            ]
+          },
+          {
+            "episode": 9,
+            "timestamps": []
+          }
+        ]
+      }
+    ]
   }
 ]
