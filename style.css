@@ -178,9 +178,12 @@ margin-right:15px;
 display:flex;
 gap:30px;
 align-items:flex-start;
-flex-wrap:wrap;
+flex-wrap:nowrap;
 }
-
+.details-info{
+flex:1;
+min-width:0;
+}
 .details-poster{
 width:320px;
 border-radius:18px;
@@ -1359,18 +1362,8 @@ body.light .siteFooter .footerInstagram{
 body.light .siteFooter .footerInstagram:hover{
   color: #f1d23c !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 900px){
+  .details-hero{
+    flex-wrap:wrap;
+  }
+}
