@@ -217,6 +217,53 @@
             "timestamps": []
           }
         ]
+      },
+      {
+        "season": 2,
+        "episodes": [
+          {
+            "episode": 1,
+            "timestamps": []
+          },
+          {
+            "episode": 2,
+            "timestamps": []
+          },
+          {
+            "episode": 3,
+            "timestamps": [
+              "00:08:31 - 00:08:50 Kiss"
+            ]
+          },
+          {
+            "episode": 4,
+            "timestamps": []
+          },
+          {
+            "episode": 5,
+            "timestamps": []
+          },
+          {
+            "episode": 6,
+            "timestamps": []
+          },
+          {
+            "episode": 7,
+            "timestamps": [
+              "00:32:22 - 00:32:25 Kiss"
+            ]
+          },
+          {
+            "episode": 8,
+            "timestamps": [
+              "00:29:06 - 00:30:43 Nudity"
+            ]
+          },
+          {
+            "episode": 9,
+            "timestamps": []
+          }
+        ]
       }
     ]
   }
