@@ -266,5 +266,41 @@
         ]
       }
     ]
+  },
+  {
+    "title": "Man vs Baby",
+    "type": "series",
+    "image": "manvsbaby.jpg",
+    "genres": [
+      "Comedy",
+      "Mini-Series",
+      "Family"
+    ],
+    "year": 2025,
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "timestamps": []
+          },
+          {
+            "episode": 2,
+            "timestamps": []
+          },
+          {
+            "episode": 3,
+            "timestamps": []
+          },
+          {
+            "episode": 4,
+            "timestamps": [
+              "00:23:23 - 00:24:34 Other"
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
