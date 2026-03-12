@@ -302,5 +302,55 @@
         ]
       }
     ]
+  },
+  {
+    "title": "Hawkeye",
+    "type": "series",
+    "image": "hawkeye.jpg",
+    "genres": [
+      "Drama",
+      "Sci-Fi",
+      "Mystery",
+      "Comedy",
+      "Action",
+      "Adventure",
+      "Crime"
+    ],
+    "year": 2021,
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "timestamps": [
+              "00:25:06 - 00:25:08 Kiss"
+            ]
+          },
+          {
+            "episode": 2,
+            "timestamps": []
+          },
+          {
+            "episode": 3,
+            "timestamps": []
+          },
+          {
+            "episode": 4,
+            "timestamps": [
+              "00:09:46 - 00:09:50 Kiss"
+            ]
+          },
+          {
+            "episode": 5,
+            "timestamps": []
+          },
+          {
+            "episode": 6,
+            "timestamps": []
+          }
+        ]
+      }
+    ]
   }
 ]
